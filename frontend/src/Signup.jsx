@@ -29,7 +29,7 @@ const [message, setMessage] = useState("");
    const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post("http://localhost:3000/user/register", {
+    axios.post("https://frontend-10oct.onrender.com/user/register", {
       username:username,
       email: email,
       password: password
